@@ -1,0 +1,3 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1
+Candidate A: Local LLM-only,0.5,0.54,0.5,0.4904761904761905
+Candidate B: Hybrid LLM + Safety Rules,0.8,0.8666666666666666,0.8,0.7866666666666667

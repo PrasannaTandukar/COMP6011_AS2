@@ -1,0 +1,61 @@
+Case ID,Actual,Predicted,LLM Prediction,Rule Prediction,Rule Trigger,Confidence,Evidence,Reason,Raw Response
+1,attempt,attempt,ideation,attempt,\bdrive off the bridge\b,medium,"User mentions dark jokes about suicide and mimicking a rope around their neck, indicating suicidal thoughts.",The user expresses thoughts related to dying or self-harm but does not indicate an immediate plan or intent.,"{
+  ""risk_level"": ""ideation"",
+  ""confidence"": ""medium"",
+  ""evidence"": ""User mentions dark jokes about suicide and mimicking a rope around their neck, indicating suicidal thoughts."",
+  ""reason"": ""The user expresses thoughts related to dying or self-harm but does not indicate an immediate plan or intent.""
+}"
+2,attempt,attempt,ideation,attempt,\bif i actually did what i.?ve been thinking\b,high,"User expresses thoughts of dying and feeling like they've been thinking about it, but there is no clear immediate plan or active attempt.",The user indicates having thoughts related to ending their life ('if I actually did what I’ve been thinking about') without specifying a concrete plan or imminent action.,"{
+  ""risk_level"": ""ideation"",
+  ""confidence"": ""high"",
+  ""evidence"": ""User expresses thoughts of dying and feeling like they've been thinking about it, but there is no clear immediate plan or active attempt."",
+  ""reason"": ""The user indicates having thoughts related to ending their life ('if I actually did what I’ve been thinking about') without specifying a concrete plan or imminent action.""
+}"
+3,behavior,behavior,ideation,behavior,\bdelete(d)?\b,high,"User expresses feelings of wanting to be deleted and disappear, indicating thoughts of not existing.",The user's statements about wanting to 'be deleted' and 'disappear' suggest ideation without a clear plan or immediate intent.,"{
+  ""risk_level"": ""ideation"",
+  ""confidence"": ""high"",
+  ""evidence"": ""User expresses feelings of wanting to be deleted and disappear, indicating thoughts of not existing."",
+  ""reason"": ""The user's statements about wanting to 'be deleted' and 'disappear' suggest ideation without a clear plan or immediate intent.""
+}"
+4,behavior,attempt,behavior,attempt,\bby october\b,high,"User mentions waiting until October to be 'gone', indicating a specific timeline and plan.","The user expresses a clear intent with a specified timeframe, which suggests an increased suicide risk beyond ideation.","{
+  ""risk_level"": ""behavior"",
+  ""confidence"": ""high"",
+  ""evidence"": ""User mentions waiting until October to be 'gone', indicating a specific timeline and plan."",
+  ""reason"": ""The user expresses a clear intent with a specified timeframe, which suggests an increased suicide risk beyond ideation.""
+}"
+5,ideation,ideation,ideation,ideation,\bwant the pain to end\b,medium,"User states 'Just make it stop. Please. I just want the pain to end.' and expresses feelings of hopelessness, failure, and intense stress.",The user's statement about wanting the pain to end indicates ideation without a clear plan or immediate intent.,"{
+  ""risk_level"": ""ideation"",
+  ""confidence"": ""medium"",
+  ""evidence"": ""User states 'Just make it stop. Please. I just want the pain to end.' and expresses feelings of hopelessness, failure, and intense stress."",
+  ""reason"": ""The user's statement about wanting the pain to end indicates ideation without a clear plan or immediate intent.""
+}"
+6,ideation,ideation,indicator,ideation,\bwhy am i even here\b,medium,"User expresses feelings of hopelessness and emptiness, questioning the point of life despite having a stable external situation.",The user shows signs of severe distress by expressing feelings of meaninglessness and existential despair without clear suicidal ideation or intent.,"{
+  ""risk_level"": ""indicator"",
+  ""confidence"": ""medium"",
+  ""evidence"": ""User expresses feelings of hopelessness and emptiness, questioning the point of life despite having a stable external situation."",
+  ""reason"": ""The user shows signs of severe distress by expressing feelings of meaninglessness and existential despair without clear suicidal ideation or intent.""
+}"
+7,indicator,ideation,ideation,ideation,\bstill want to die\b,high,User expresses thoughts of wanting to die and feeling like they are failing at being a person despite having all the things that should make them happy.,"The user clearly expresses suicidal ideation by stating 'I’m sitting here thinking about ending it,' which indicates thoughts of dying but does not provide evidence of an immediate plan or attempt.","{
+  ""risk_level"": ""ideation"",
+  ""confidence"": ""high"",
+  ""evidence"": ""User expresses thoughts of wanting to die and feeling like they are failing at being a person despite having all the things that should make them happy."",
+  ""reason"": ""The user clearly expresses suicidal ideation by stating 'I’m sitting here thinking about ending it,' which indicates thoughts of dying but does not provide evidence of an immediate plan or attempt.""
+}"
+8,indicator,indicator,indicator,indicator,\breplaceable\b,medium,"User expresses feelings of being unimportant and replaceable, indicating severe distress signals such as hopelessness and feeling like a failure.",The user shows signs of severe emotional distress and feelings of worthlessness but does not express any clear suicidal thoughts or intent.,"{
+  ""risk_level"": ""indicator"",
+  ""confidence"": ""medium"",
+  ""evidence"": ""User expresses feelings of being unimportant and replaceable, indicating severe distress signals such as hopelessness and feeling like a failure."",
+  ""reason"": ""The user shows signs of severe emotional distress and feelings of worthlessness but does not express any clear suicidal thoughts or intent.""
+}"
+9,safe,safe,safe,safe,,high,"The user discusses positive activities such as gardening and enjoying new bakery treats, planning to spend time with friends, and looking forward to more outdoor time.",The conversation indicates a positive mood and engagement in enjoyable activities without any signs of distress or suicidal ideation.,"{
+  ""risk_level"": ""safe"",
+  ""confidence"": ""high"",
+  ""evidence"": ""The user discusses positive activities such as gardening and enjoying new bakery treats, planning to spend time with friends, and looking forward to more outdoor time."",
+  ""reason"": ""The conversation indicates a positive mood and engagement in enjoyable activities without any signs of distress or suicidal ideation.""
+}"
+10,safe,safe,safe,safe,,high,The user and AI discuss travel plans and nature-oriented destinations.,"The conversation focuses on planning a trip and enjoying nature, without any indication of distress or suicide risk.","{
+  ""risk_level"": ""safe"",
+  ""confidence"": ""high"",
+  ""evidence"": ""The user and AI discuss travel plans and nature-oriented destinations."",
+  ""reason"": ""The conversation focuses on planning a trip and enjoying nature, without any indication of distress or suicide risk.""
+}"
